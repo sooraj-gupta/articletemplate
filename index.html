@@ -80,14 +80,6 @@
 		<script src = "clipboard/clipboard.js"></script>
 		<script> Clipboard.init(); </script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/highlight.min.js"></script>
-		<script>hljs.initHighlightingOnLoad();
-		var ip;
-		fetch( 'https://api.ipify.org/?format=json' ).then( results => results.json()).then( data => print(data.ip) );
-		function print( ip )
-		{
-			this.ip = ip 
-			//fetch( 'http://www.geoplugin.net/json.gp?ip=<your ip here>&jsoncallback=' )
-		}
-		</script>
+		<script>hljs.initHighlightingOnLoad();</script>
 	</body>
 	</html>
